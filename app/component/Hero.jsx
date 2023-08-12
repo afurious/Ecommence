@@ -5,6 +5,7 @@ const ysa = Ysabeau({
   subsets: ["latin"],
   weight: ["600"],
   style: "italic",
+  display:"swap",
 });
 const Hero = () => {
   return (
