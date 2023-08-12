@@ -1,6 +1,5 @@
-import './globals.css';
+import Checkout from '../component/Checkout';
 import {Lato} from 'next/font/google';
-import Header from './component/Header';
 
 const lato = Lato ({
   subsets: ['latin'],
@@ -17,7 +16,7 @@ export default function RootLayout({children}) {
   return (
     <html lang="en">
       <body className={lato.className}>
-        <Header />
+        <Checkout />
         {children}
       </body>
     </html>
