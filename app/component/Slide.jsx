@@ -11,10 +11,10 @@ import "react-alice-carousel/lib/alice-carousel.css";
 
 // import "swiper/css";
 const items = [
-  <Image src="/images/slide/1.png" alt="" width={358} height={332} />,
-  <Image src="/images/slide/2.png" alt="" width={358} height={332} />,
-  <Image src="/images/slide/3.png" alt="" width={358} height={332} />,
-  <Image src="/images/slide/4.png" alt="" width={358} height={332} />,
+  <Image src="/images/slide/1.png" alt="" width={358} height={332} key={1} />,
+  <Image src="/images/slide/2.png" alt="" width={358} height={332} key={2} />,
+  <Image src="/images/slide/3.png" alt="" width={358} height={332} key={3} />,
+  <Image src="/images/slide/4.png" alt="" width={358} height={332} key={4} />,
 ];
 
 const Slide = ({ delay }) => {
